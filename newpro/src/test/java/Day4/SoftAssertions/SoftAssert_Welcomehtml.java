@@ -36,7 +36,6 @@ public class SoftAssert_Welcomehtml {
         SoftAssert softAssert = new SoftAssert();
 
         // 1
-        // 1. Wait until page title matches, then assert
         wait.until(ExpectedConditions.titleIs("Welcome"));
         softAssert.assertEquals(driver.getTitle(), "Welcome");
         // 2

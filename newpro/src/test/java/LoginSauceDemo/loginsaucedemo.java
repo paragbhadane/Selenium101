@@ -23,6 +23,7 @@ public class loginsaucedemo {
             obj_user.sendKeys("standard_user");
             obj_pass.sendKeys("secret_sauce");
 
+
             Thread.sleep(1000);
 
             loginBtn.click();

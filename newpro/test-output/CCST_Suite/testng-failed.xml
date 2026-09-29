@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [CCST_Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="SmokeTests(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
+  <test thread-count="5" name="Tests(failed)">
     <classes>
-      <class name="Day3.HandledUnexpectedAlert.TestNg.TestNgg">
+      <class name="FileUploadWithRobotPackage.fileUploadWithRobotPackage">
         <methods>
-          <include name="testPositiveLoginSauceDemo"/>
+          <include name="testFileUploadWithRobot"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Day3.HandledUnexpectedAlert.TestNg.TestNgg -->
+      </class> <!-- FileUploadWithRobotPackage.fileUploadWithRobotPackage -->
     </classes>
-  </test> <!-- SmokeTests(failed) -->
+  </test> <!-- Tests(failed) -->
 </suite> <!-- Failed suite [CCST_Suite] -->
